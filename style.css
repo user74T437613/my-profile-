@@ -1,0 +1,105 @@
+/*Colors and Fonts*/
+
+body {
+  background: #e6efff;
+  color:#221e61;
+  font-family: "Lora", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  }
+  
+  h1, h2, h3 {
+   font-family: "Poppins", sans-serif;
+}
+h1 {
+  color:#0d274a;
+  font-weight: 700;
+  font-style: normal;
+}
+h2 {
+  color:#0d274a;
+  font-size: 24px;
+  font-weight: 550;
+}
+a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: #2d49e5;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+/*Custom design*/
+
+.container {
+width: 1200px;
+margin: 50px auto;
+}
+ 
+.card-white {
+background: #f1f9ff;
+padding: 15px 150px;
+margin: 4px 150px;    
+box-shadow: 0 10px 30px rgba(0,0,0,.2);
+border-radius:10px;   
+text-align: center; 
+}
+
+.img-circle {
+ border-radius: 50%;
+}
+
+.btn-blue {
+ background-color:#2d49e5;
+ color: white;
+ padding: 15px 20px;
+ border-radius: 4px;
+}
+
+.btn-blue:hover {
+ background-color:#0d274a;
+ color: white;
+}
+
+.list-inline {
+ list-style: none;
+ padding-left: 0px;
+}
+  
+.list-inline i {
+font-size: 50px;
+color:#2d49e5;
+}
+
+.list-inline i:hover {
+color: #0d274a;
+}
+
+#introduction p {
+margin-bottom: 40px;
+}
+
+@media (max-width:960px) {
+  .container {
+    width:800px;
+  }
+}
+
+@media (max-width:760px) {
+  .container {
+    width:600px;
+  }
+}
+
+@media (max-width:540px) {
+  .container {
+    width:300px;
+  }
+}
